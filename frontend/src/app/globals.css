@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sidebar-icon {
+    @apply flex flex-col items-center justify-center h-12 w-12 mt-2 bg-secondary text-textPrimary hover:bg-highlight hover:text-white text-sm rounded-3xl
+           hover:rounded-lg transition-all duration-200 ease-linear shadow-lg;
+  }
+}
